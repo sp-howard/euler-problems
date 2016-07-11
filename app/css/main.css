@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box; }
+
+h1 {
+  text-align: center;
+  margin-top: 5em; }
+
+.problem {
+  background-color: #eee;
+  border: .5em solid #fff;
+  margin-top: 1em; }
+  .problem h2 {
+    text-align: center; }
+    .problem h2 a {
+      color: black; }
+  .problem p {
+    padding: 1em 3em; }
+  .problem form {
+    text-align: center; }
+    .problem form input {
+      margin-bottom: .5em; }
+  .problem .result {
+    background-color: #ddd;
+    min-height: 3em;
+    margin: 1em 0 .5em;
+    font-size: 2em;
+    text-align: center;
+    padding: 1em; }
+
+.btn-container {
+  text-align: center;
+  margin: 1em 0;
+  display: none; }
+
+.code {
+  display: none; }
